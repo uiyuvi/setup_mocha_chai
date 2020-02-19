@@ -20,7 +20,11 @@ node node_modules/mocha/bin/mocha tests(test directory)
 
 `on specific file`
 
-node node_modules/mocha/bin/mocha tests/mocha_test1.js
+node node_modules/mocha/bin/mocha tests/mocha_test1.js(test directory/specificfile.js)
+
+`on matching file`
+
+node node_modules/mocha/bin/mocha tests/*1.js(test directory/pattern_to_identify.js)
 
 #### Run mocha is vscode
 Install extension - https://marketplace.visualstudio.com/items?itemName=hbenl.vscode-mocha-test-adapter
